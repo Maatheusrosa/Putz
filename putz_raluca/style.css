@@ -1,0 +1,105 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-image: linear-gradient(to bottom, rgb(32, 32, 32), black);
+    height: 100vh;
+    overflow-y: hidden;
+}
+
+
+#instrucao {
+    font-size: 15pt;
+    font-weight: bold;
+    color: white;
+    position: absolute;
+    margin-left: 50%;
+    transform: translate(-50%);
+    margin-top: -160px;
+}
+
+#container_inputs {
+    position: absolute;
+    margin-top: -100px;
+    height: 100px;
+    width: 1000px;
+}
+
+    #btn {
+        position: absolute;
+        width: 130px;
+        height: 30px;
+        background-color: white;
+        margin-top: 10px;
+        margin-left: 10px;
+        border-radius: 7px;
+        box-shadow: inset 0px -3px 1px 0px rgb(151, 151, 151);
+    }
+
+        #btn > p {
+            margin-top: 5px;
+            margin-left: 10px;
+            font-weight: bold;
+            color: rgb(75, 75, 75);
+        }
+
+        #btn:hover {
+            padding: 2px;
+            transform: translate(-2px, -2px);
+            cursor: pointer;
+        }
+
+
+    #input_url {
+        margin-top: 50px;
+        margin-left: 10px;
+        width: 800px;
+        height: 30px;
+        border: none;
+        border-radius: 10px;
+        font-size: 13pt;
+    }
+
+    
+
+#img {
+    background-color: gray;
+    background-image: url(imgs/fundo_putz.png);
+    width: 1000px;
+    height: 500px;
+    margin: 0px auto;
+    margin-top: 250px;
+}
+
+#img_usuario {
+    width: 1000px;
+    height: 300px;
+    display: block;
+    background-color: gray;
+}
+
+
+#putz {
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    font-size: 120pt;
+    font-weight: 900;
+    margin-top: 200px;
+    margin-left: 70px;
+    color: white;
+    text-shadow: 4px 4px 6px rgba(0, 0, 0, 0.637);
+}
+
+#fotinha {
+    position: absolute;
+    margin-left: 510px;
+    margin-top: 60px;
+    width: 477px;
+    height: 439px;
+    opacity: 0%;
+}
